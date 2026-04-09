@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <aside class="sidebar">
+    <div class="container">
+        <aside class="sidebar">
         <header class="sidebar-header">
             <a href="#" class="header-logo">
                 <img src="image/rana.jpeg" alt="MyPages">
@@ -17,55 +18,56 @@
                 <span class="material-symbols-outlined">double_arrow</span>
             </button>
         </header>
-    <navbar class="sidebar-nav">
+    <nav class="sidebar-nav">
         <ul id="nav-list">
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#About" class="nav-link">
                     <span class="material-symbols-outlined">face_2</span>
                     <span class="nav-label">About Me</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#Education" class="nav-link">
                     <span class="material-symbols-outlined">school</span>
                     <span class="nav-label">Education</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#Experience" class="nav-link">
                     <span class="material-symbols-outlined">work</span>
                     <span class="nav-label">Experience</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#Interests" class="nav-link">
                     <span class="material-symbols-outlined">interests</span>
                     <span class="nav-label">Interests</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#Comments" class="nav-link">
                     <span class="material-symbols-outlined">comic_bubble</span>
                     <span class="nav-label">Comments</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#Contact" class="nav-link">
                     <span class="material-symbols-outlined">contacts</span>
                     <span class="nav-label">Contact Me</span>
                 </a>
             </li>
         </ul>
-    </navbar>
+    </nav>
+    </aside>
     <main>
         <section id="About">
-            <h2><img src="image/rana.jpeg" alt="Picture of Me">First Section...</h2>
+            <h2>First Section...</h2>
             <p class="about">Hi! Let me introduce myself, my name is Rana. I currently work for a BUMN company in the aviation sector. I am a wife and mother of a young son. I am currently developing my skills in front-end web development.
                 Whenever I have free time, I always make time to host my courses on JayJay. By listening to the learning materials and completing the assignments, I am confident that one day I can become a skilled front-end web developer.
                 This is a collection of pages that showcase my background, education, experience, interests, and contact information. Feel free to navigate through the menu to learn more about me.</p>
         </section>
     <hr>
-        <section id="Education" alt="Education">
+        <section id="Education">
             <h2>Educated at...</h2>
             <table border="1" class="table-1">
                 <th>School Name</th>
@@ -95,7 +97,7 @@
         </section>
     </br>
     <hr>
-        <section id="Experience" alt="Experience">
+        <section id="Experience">
             <h2>Experienced on...</h2>
             <ul>
                 <li>Bidang Agama Osis SMP Islam Al-Azhar 17 Pontianak Periode Tahun 2011</li>
@@ -105,7 +107,7 @@
             </ul>
         </section>
     <hr>
-        <section id="Interest" alt="Interest">
+        <section id="Interests">
             <h2>Interest In...</h2>
             <div class="pie-chart">
                 <div class="label l1"><span>English</span></div>
@@ -116,7 +118,7 @@
             </div>
         </section>
     <hr>
-        <section id="Comments" alt="Comments">
+        <section id="Comments">
             <h2>Leave Me a Comments</h2>
             <div class="message-wrapper">
                 <form id="formComment">
@@ -149,7 +151,7 @@
             </div>
         </section>
     <hr>
-        <section id="Contact" alt="Contact Me">
+        <section id="Contact">
             <h2>Contact Me</h2>
                 <div>
                     <p>Email : <a href="mailto:ranasalsa@gmail.com">ranasalsa@gmail.com</a></p>
@@ -161,6 +163,7 @@
     <footer class="footer">
         <p>&copy; 2026 Rana Salsabila. All rights reserved.</p>
     </footer>
-<script src="JS/script.js"></script>
+</div>
+<script src="JS/node.js"></script>
 </body>
 </html>

@@ -15,3 +15,9 @@ document.getElementById("formComment").addEventListener("submit", function(e) {
     const box = document.getElementById("outputMessage");
     box.style.display = "block";
 });
+const toggleBtn = document.querySelector(".toggler");
+const sidebar = document.querySelector(".sidebar");
+toggleBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("collapsed");
+    document.body.classList.toggle("collapsed");
+});
