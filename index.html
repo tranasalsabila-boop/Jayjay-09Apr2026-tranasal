@@ -5,20 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Pages with Flexbox</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
-        <h1>Please Come in to My Pages!</h1>
-        <p>Here you can find all things about me. Feel free to explore and enjoy the content!</p>
-    </header>
-    <navbar class="navbar">
-        <ul id="nav-menu">
-            <li><a href="#About">About Me</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Interest">Interest In</a></li>
-            <li><a href="#Comments">Comments</a></li>
-            <li><a href="#Contact">Contact Me</a></li>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <a href="#" class="header-logo">
+                <img src="image/rana.jpeg" alt="MyPages">
+            </a>
+            <button class="toggler">
+                <span class="material-symbols-outlined">double_arrow</span>
+            </button>
+        </header>
+    <navbar class="sidebar-nav">
+        <ul id="nav-list">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="material-symbols-outlined">face_2</span>
+                    <span class="nav-label">About Me</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="material-symbols-outlined">school</span>
+                    <span class="nav-label">Education</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="material-symbols-outlined">work</span>
+                    <span class="nav-label">Experience</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="material-symbols-outlined">interests</span>
+                    <span class="nav-label">Interests</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="material-symbols-outlined">comic_bubble</span>
+                    <span class="nav-label">Comments</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="material-symbols-outlined">contacts</span>
+                    <span class="nav-label">Contact Me</span>
+                </a>
+            </li>
         </ul>
     </navbar>
     <main>
