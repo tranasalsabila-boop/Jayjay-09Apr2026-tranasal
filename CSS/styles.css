@@ -126,11 +126,11 @@ main p {
     font-size: 30px;
     font-weight: bold;
 }
-#About {
-    height: 5%;
-    width: 100%;
+.about {
     text-align: justify;
-    overflow-y:scroll;
+    overflow: scroll;
+    height: 150px;
+    width: auto;
 }
 .table-1 {
     width: 100%;
