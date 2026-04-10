@@ -22,7 +22,3 @@ document.getElementById("formComment").addEventListener("submit", function(e) {
             navBar.classList.toggle('open');
         });
 });
-
-    overlay.addEventListener('click', () => {
-        navBar.classList.remove('open');
-});
