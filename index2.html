@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pages with Flexbox</title>
+    <link rel="stylesheet" href="CSS/styles2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav id="sidebar">
+        <div class="logo">
+            <span class="material-symbols-outlined">menu</span>
+            <span class="logo-text">MyPages</span>
+        </div>
+        <div class="sidebar">
+            <div class="logo">
+                <span class="material-symbols-outlined">menu</span>
+                <span class="logo-text">MyPages</span>
+            </div>
+
+           
+            <div class="sidebar-content">
+                <ul class="list">
+                    <li class="list">
+                        <a href="#About" class="nav-link">
+                            <span class="material-symbols-outlined">face_2</span>
+                            <span class="link-text">About</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#Education" class="nav-link">
+                            <span class="material-symbols-outlined">school</span>
+                            <span class="link-text">Education</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#Experience" class="nav-link">
+                            <span class="material-symbols-outlined">work</span>
+                            <span class="link-text">Experience</span>
+                        </a>
+                    </li>
+                    <li class="list">   
+                        <a href="#Interests" class="nav-link">
+                            <span class="material-symbols-outlined">favorite</span>
+                            <span class="link-text">Interests</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#Comments" class="nav-link">
+                            <span class="material-symbols-outlined">comment</span>
+                            <span class="link-text">Comments</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#Contact" class="nav-link">
+                            <span class="material-symbols-outlined">contact_mail</span>
+                            <span class="link-text">Contact</span>
+                        </a>
+                    </li>   
+                </ul>
+            </div>
+        </div>  
+    </nav>
+    <section class="overlay">
+    </section>
+    <main>
+        <section id="About">
+            <h2>First Section...</h2>
+            <p class="about">Hi! Let me introduce myself, my name is Rana. I currently work for a BUMN company in the aviation sector. I am a wife and mother of a young son. I am currently developing my skills in front-end web development.
+                Whenever I have free time, I always make time to host my courses on JayJay. By listening to the learning materials and completing the assignments, I am confident that one day I can become a skilled front-end web developer.
+                This is a collection of pages that showcase my background, education, experience, interests, and contact information. Feel free to navigate through the menu to learn more about me.</p>
+        </section>
+    <hr>
+        <section id="Education">
+            <h2>Educated at...</h2>
+            <table border="1" class="table-1">
+                <th>School Name</th>
+                <th>Year Entered</th>
+                <th>Year Graduated</th>
+                <tr>
+                    <td>SD Islam Al-Azhar 21 Pontianak</td>
+                    <td>2003</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>SMP Islam Al-Azhar 17 Pontianak</td>
+                    <td>2009</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>SMA Negeri 3 Pontianak</td>
+                    <td>2012</td>      
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>Politeknik Penerbangan Surabaya</td>
+                    <td>2015</td>
+                    <td>2018</td>
+                </tr>       
+            </table>
+        </section>
+    </br>
+    <hr>
+        <section id="Experience">
+            <h2>Experienced on...</h2>
+            <ul>
+                <li>Bidang Agama Osis SMP Islam Al-Azhar 17 Pontianak Periode Tahun 2011</li>
+                <li>Sekretaris Umum Paskibra SMA Negeri 3 Pontianak Periode Tahun 2014-2015</li>
+                <li>Sekretaris Serikat Karyawan AirNav Periode Tahun 2019-2022</li>
+                <li>Sekretaris Serikat Karyawan AirNav Periode Tahun 2023-2025</li>
+            </ul>
+        </section>
+    <hr>
+        <section id="Interests">
+            <h2>Interest In...</h2>
+            <div class="pie-chart">
+                <div class="label l1"><span>English</span></div>
+                <div class="label l2"><span>Ms.Office</span></div>
+                <div class="label l3"><span>HTML</span></div>
+                <div class="label l4"><span>CSS</span></div>
+                <div class="label l5"><span>JS</span></div>
+            </div>
+        </section>
+    <hr>
+        <section id="Comments">
+            <h2>Leave Me a Comments</h2>
+            <div class="message-wrapper">
+                <form id="formComment">
+                <table border="1" class="table-2">
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td><input type="text" id="name" placeholder="Your Name..." required></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="email" id="email" placeholder="Your Email..." required></td>
+                        </tr>
+                        <tr>
+                            <td>Comment</td>
+                            <td>:</td>
+                            <td><textarea id="comment" placeholder="Your Comment..." required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">
+                                <button type="submit" id="submit-btn">Submit</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            <div id="outputMessage" class="output-container"></div>
+            </div>
+        </section>
+    <hr>
+        <section id="Contact">
+            <h2>Contact Me</h2>
+                <div>
+                    <p>Email : <a href="mailto:ranasalsa@gmail.com">ranasalsa@gmail.com</a></p>
+                    <p>LinkedIn : <a href="https://www.linkedin.com/in/ranasalsabila/">Rana Salsabila</a></p>
+                </div>
+                    <p>Instagram : <a href="https://www.instagram.com/ranasalsabila/">@ranasalsabila</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 Rana Salsabila. All rights reserved.</p>
+    </footer>
+</div>
+<script src="JS/node.js"></script>
+</body>
+</html>

@@ -15,9 +15,14 @@ document.getElementById("formComment").addEventListener("submit", function(e) {
     const box = document.getElementById("outputMessage");
     box.style.display = "block";
 });
-const toggleBtn = document.querySelector(".toggler");
-const sidebar = document.querySelector(".sidebar");
-toggleBtn.addEventListener("click", () => {
-    sidebar.classList.toggle("collapsed");
-    document.body.classList.toggle("collapsed");
+    const navBar = document.querySelector('nav');
+    const menuBtns = document.querySelectorAll('.material-symbols-outlined');            overlay = document.querySelector('.overlay');
+        menuBtns.forEach((menuBtn) => {
+        menuBtn.addEventListener('click', () => {
+            navBar.classList.toggle('open');
+        });
+});
+
+    overlay.addEventListener('click', () => {
+        navBar.classList.remove('open');
 });
